@@ -10,11 +10,9 @@ import React from "react";
 
 function Todo(props) {
   return (
-    <List>
+    <List className="todo__list">
       <ListItem>
-        <ListItemAvatar>
-          <Avatar></Avatar>
-        </ListItemAvatar>
+        <ListItemAvatar></ListItemAvatar>
         <ListItemText primary={props.text} secondary="Deadline" />
       </ListItem>
     </List>
